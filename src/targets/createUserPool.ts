@@ -9,7 +9,7 @@ import { USER_POOL_AWS_DEFAULTS } from "../services/cognitoService";
 import { userPoolToResponseObject } from "./responses";
 import { Target } from "./Target";
 
-const REGION = "local";
+const REGION = "pc-local-1";
 const ACCOUNT_ID = "local";
 
 const generator = shortUUID(
